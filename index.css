@@ -1,0 +1,1346 @@
+@font-face {
+  font-family: "Noteworthy Light";
+  src: url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot");
+  src: url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/016f50054d487d421dc18257a191a3ad.svg#Noteworthy Light")format("svg");
+
+}
+
+body {
+  margin: 0;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(1px);
+  height: auto;
+}
+
+/* .modal-content {
+  background-color: black;
+} */
+
+#categoriasModal {
+  backdrop-filter: blur(15px);
+}
+#modalFinJuego{
+  backdrop-filter: blur(30px);
+}
+
+#dificultadModal {
+  backdrop-filter: blur(12px);
+
+}
+#palabraModal {
+  backdrop-filter: blur(12px);
+
+}
+
+#categoriasModal {
+  padding-right: 0px !important;
+}
+
+.modal-content {
+  width: 180% !important;
+  margin-left: -50% !important;
+  margin-top: 10% !important;
+  box-shadow: 20px 10px 8px black;
+}
+
+
+#modal2 {
+  position: absolute;
+  margin: auto;
+  width: 180% !important;
+  margin-left: -40% !important;
+  margin-top: 20% !important;
+  box-shadow: 20px 10px 8px black;
+  border-color: 10px solid #fff;
+
+}
+
+#modal3 {
+  position: absolute;
+  margin: auto;
+  width: 120% !important;
+  margin-left: -10% !important;
+  margin-top: 6% !important;
+  box-shadow: 20px 10px 8px black;
+  border-color: 10px solid #fff;
+  margin-bottom: 5px;
+}
+
+#modal1 {
+  width: 200% !important;
+  margin-left: -250px !important;
+  right: 0%;
+  margin-top: 0px !important;
+  box-shadow: 20px 10px 8px black;
+  border-color: 10px solid #fff;
+  margin-bottom: 5px;
+}
+
+.modal-body {
+  padding: 0%;
+}
+
+.carta {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+#pre {
+  width: 80%;
+  max-width: 150vh;
+  border-radius: 10px;
+  background-size: cover;
+  height: 80vh;
+}
+
+#pres {
+  margin-top: -93%;
+}
+
+#press {
+  width: 90%;
+  margin-top: -10%;
+}
+
+#ico {
+  width: 13%;
+  position: absolute;
+  bottom: 45%;
+  left: 23%;
+}
+
+#animales {
+  background-color: black;
+  color: white;
+  font-family: "Noteworthy Light";
+}
+
+#colores {
+  background-color: black;
+  color: white;
+  font-family: "Noteworthy Light";
+}
+
+#frutas {
+  background-color: black;
+  color: white;
+  position: relative;
+  font-family: "Noteworthy Light";
+}
+
+.btn-primary {
+  position: absolute;
+  padding: 0%;
+  bottom: 38%;
+  left: 40%;
+  width: 5%;
+  height: 10%;
+  background-color: transparent;
+  border-radius: 20px;
+  border: transparent;
+}
+
+.modal-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  background-color: black;
+  align-items: center;
+  padding: 0% !important;
+}
+
+#ani {
+  width: 100%;
+  height: 140%;
+}
+
+.nivel {
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-body2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-left: 7%;
+  gap: 10px;
+  background-color: black;
+  align-items: center;
+  background-size: 400px 30px auto;
+
+  background-repeat: no-repeat;
+}
+
+.img1 {
+  width: 135%;
+  height: 160%;
+}
+
+.img2 {
+  width: 135%;
+  height: 160%;
+}
+
+.img3 {
+  width: 135%;
+  height: 160%;
+}
+
+.modal-header1 {
+  align-items: center;
+}
+
+#a {
+  width: 100%;
+  height: 120%;
+}
+
+#an {
+  width: 100%;
+  height: 120%;
+}
+
+#palabraModal {
+  color: #ebe6ea;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.boton {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  width: 140px;
+  height: 140px;
+  border: 4px solid #cccccc00;
+  border-top: 6px solid #d71fef;
+  border-radius: 100%;
+  border-bottom: 6px solid #bc46f9;
+  background-color: transparent;
+}
+
+.boton .borde {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  width: 90%;
+  height: 97%;
+  transform: rotate(50deg);
+  border: 5px solid #cccccc00;
+  border-left: 5px solid #d71fef;
+  border-radius: 100%;
+  border-right: 6px solid #bc46f9;
+  animation: spin 4s reverse infinite linear;
+}
+
+.boton .imagen {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+}
+
+
+.modal-body3 {
+  background-color: black;
+}
+
+.botones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 6%;
+  text-align: center;
+}
+
+.opci {
+  margin-top: 20px;
+}
+
+#imagen {
+  width: 200px;
+  margin: auto;
+}
+
+#nivelContainer h2 {
+  margin-left: 340px;
+  font-family: "Noteworthy Light";
+}
+
+.redo {
+  width: 200px;
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  left: 55%;
+  align-items: center;
+  margin-top: 35px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #0c2b88;
+}
+
+#palabra {
+  top: -3%;
+  margin-left: 5%;
+  font-size: 54px;
+  padding: 20px;
+  margin-top: 350px;
+  width: 80%;
+  max-width: 600px;
+  font-family: "Noteworthy Light";
+  color: white;
+  position: absolute;
+}
+
+.abcdario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+}
+
+
+.abcdario button {
+  font-size: 20px;
+  margin: 3px;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #0c2b88, #FF1493);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Noteworthy Light";
+  align-items: center;
+
+
+}
+
+#abcdario.abcdario {
+  margin-top: 450px;
+}
+
+button#otra {
+
+  border-radius: 50px;
+  font-family: "Noteworthy Light";
+}
+
+button#regresarCategorias {
+  border-radius: 50px;
+  font-family: "Noteworthy Light";
+}
+
+#contador {
+  width: 90px;
+  height: 50px;
+  position: absolute;
+  bottom: 740px;
+  color: white;
+  margin-left: 78px;
+  font-size: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Noteworthy Light";
+
+}
+
+
+
+#categoriaContainer h1 {
+  margin-left: 340px;
+  font-family: "Noteworthy Light";
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.cota {
+  position: absolute;
+  top: 40%;
+  left: 37%;
+  width: 140px;
+  height: 140px;
+  border: 4px solid #cccccc00;
+  border-top: 6px solid #d71fef;
+  border-radius: 100%;
+  border-bottom: 6px solid #bc46f9;
+  background-color: transparent;
+}
+
+.cota {
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  width: 10%;
+  height: 10%;
+  transform: rotate(50deg);
+  border: 5px solid #cccccc00;
+  border-left: 5px solid #d71fef;
+  border-radius: 100%;
+  border-right: 6px solid #bc46f9;
+  animation: spin 4s reverse infinite linear;
+}
+
+
+#ojo {
+
+  height: 290px;
+  width: 350px;
+  position: absolute;
+  margin: auto;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+}
+
+
+#per {
+  display: flex;
+  width: 40vh;
+  height: 40vh;
+  margin: auto;
+}
+
+#final {
+  position: relative;
+  max-width: 800px;
+  height: 930px;
+  margin: auto;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #0c2b88;
+}
+
+#vf {
+  font-family: "Noteworthy Light";
+  color: #bc46f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+@keyframes parpadeo {
+  0% {
+    color: white;
+  }
+
+  50% {
+    color: transparent;
+  }
+
+  100% {
+    color: white;
+  }
+}
+
+
+#x {
+  font-family: "Noteworthy Light";
+  color: #bc46f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 50px;
+  padding-top: 50px;
+  font-weight: bold;
+}
+
+#secu {
+  color: aliceblue;
+  font-family: "Noteworthy Light";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+  animation: parpadeo 2s linear infinite;
+}
+
+#xx {
+  font-family: "Noteworthy Light";
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 50px;
+  padding-top: 70px;
+  font-weight: bold;
+  animation: parpadeo 2s linear infinite;
+}
+
+#vd {
+  font-family: "Noteworthy Light";
+  color: #bc46f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#vic {
+  display: flex;
+  width: 45vh;
+  height: 45vh;
+  margin: auto;
+}
+
+#finalx {
+  position: relative;
+  max-width: 800px;
+  height: 920px;
+  margin: auto;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #0c2b88;
+}
+
+.bt {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
+  letter-spacing: 4px;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  font-family: "Noteworthy Light";
+  top: 10px;
+  left: 20px;
+  width: 250px;
+}
+
+.bt:hover {
+  background-color: #a945c7;
+  box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+  transition-delay: 1s;
+}
+
+.bt span {
+  position: absolute;
+  display: block;
+}
+
+#span1 {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #a945c7);
+}
+
+.bt:hover #span1 {
+  left: 100%;
+  transition: 1s;
+}
+
+#span3 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #a945c7);
+}
+
+.bt:hover #span3 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+#span2 {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #a945c7);
+}
+
+.bt:hover #span2 {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+#span4 {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(3600deg, transparent, #a945c7);
+}
+
+.bt:hover #span4 {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+.jugar:hover {
+  background-color: #a945c7;
+  box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+  transition-delay: 1s;
+}
+
+.jugar span {
+  position: absolute;
+  display: block;
+}
+
+#span1 {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #a945c7);
+}
+
+.jugar:hover #span1 {
+  left: 100%;
+  transition: 1s;
+}
+
+#span3 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #a945c7);
+}
+
+.jugar:hover #span3 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+
+#span2 {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #a945c7);
+}
+
+.jugar:hover #span2 {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+#span4 {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(3600deg, transparent, #a945c7);
+}
+
+.jugar:hover #span4 {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+.jugar {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
+  letter-spacing: 4px;
+  font-size: 24px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+  font-family: "Noteworthy Light";
+  top: 10px;
+}
+
+#btnCerrarModal {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 890px;
+  width: 300px;
+  font-size: 35px;
+  background-color: #0c2b88;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Noteworthy Light";
+  border-radius: 10px;
+}
+
+#btnCerrarModal:hover {
+  background-color: #a945c7;
+}
+
+@media screen and (max-width: 1650px) {
+  .modal-content {
+    width: 85vw !important;
+    margin-left: -23vw !important;
+  }
+
+}
+
+@media screen and (max-width: 1587px) {
+  .modal-content {
+    margin-left: -22vw !important;
+  }
+}
+
+@media screen and (max-width: 1530px) {
+  .modal-content {
+    margin-left: -19vw !important;
+  }
+
+  .modal-header1 .btn-close {
+    padding-left: 180% !important;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1482px) {
+  .modal-content {
+    margin-left: -18vw !important;
+  }
+
+  .modal-body {
+    gap: 20px;
+  }
+
+  .modal-header1 .btn-close {
+    padding-left: 175% !important;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1442px) {
+  .modal-content {
+    margin-left: -20% !important;
+  }
+
+  .modal-body {
+    gap: 20px;
+  }
+
+  .modal-header1 .btn-close {
+    padding-left: 175% !important;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .modal-content {
+    margin-left: -10% !important;
+  }
+
+  .modal-body {
+    gap: 20px;
+  }
+
+  .modal-header1 .btn-close {
+    padding-left: 175% !important;
+  }
+}
+
+@media screen and (max-width: 1081px) {
+  .modal-content {
+    margin-top: 30%;
+    margin-left: -3% !important;
+  }
+
+  .modal-body {
+    gap: 20px;
+  }
+}
+
+  @media screen and (max-width: 1000px) {
+    .modal-header {
+      height: 50px;
+    }
+
+    .modal-content {
+      width: 95vw !important;
+      margin-top: 0% !important;
+    }
+
+    #modal3 {
+      position: absolute;
+      margin: auto;
+      width: 115% !important;
+      margin-left: -10% !important;
+      margin-top: 6% !important;
+      box-shadow: 20px 10px 8px black;
+    }
+
+    .modal-body {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      justify-content: center;
+      margin: auto;
+    }
+
+    .modal-body img {
+      margin-top: 5% !important;
+      display: grid;
+      gap: 10px;
+      width: 140px !important;
+      background-color: black;
+      width: 75% !important;
+    }
+
+    #a {
+      margin-left: 50px;
+    }
+
+    #an {
+      margin-left: -5px;
+    }
+
+    #ani {
+      width: 50%;
+      margin-left: 150px;
+    }
+
+    .boton {
+      top: 40%;
+      left: 32%;
+      width: 115px;
+      height: 115px;
+    }
+
+    .boton .imagen {
+      position: absolute;
+      top: 50%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      width: 60px;
+    }
+
+    #modal1 {
+      width: 145% !important;
+      margin-left: -114px !important;
+    }
+
+    #palabra {
+      top: -3%;
+      margin-left: 2%;
+      font-size: 4vw;
+      padding: 20px;
+      margin-top: 350px;
+      width: 80%;
+    }
+
+    #contador {
+      bottom: 84%;
+      margin-left: 45px;
+      font-size: 35px;
+
+    }
+
+    .redo {
+      height: 350px;
+      width: 350px;
+      left: 45%;
+      margin-top: 35px;
+
+    }
+
+    .cota {
+      position: absolute;
+      top: 10%;
+      left: 7%;
+      width: 12%;
+      height: 9%;
+    }
+
+    .botones {
+      gap: 5%;
+    }
+
+    .bt {
+      padding: 0 15px;
+      font-size: 24px;
+      top: 40px;
+      left: 20px;
+      height: 50px;
+      width: 200px;
+    }
+
+    #final {
+      max-width: 700px;
+      margin: auto;
+      background-color: black;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #0c2b88;
+    }
+
+    #finalx {
+      max-width: 700px;
+      margin: auto;
+      background-color: black;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #0c2b88;
+    }
+
+    #vic {
+      display: flex;
+      width: 35vh;
+      height: 35vh;
+      margin: auto;
+    }
+  }
+
+  @media screen and (max-width: 830px) {
+    .modal-content {
+      width: 90vw !important;
+      margin-top: 50%;
+      margin-left: -20% !important;
+    }
+
+
+    .modal-body {
+      gap: 20px;
+    }
+
+    .modal-header1 .btn-close {
+      padding-left: 170% !important;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .modal-content {
+      margin-top: 20% !important;
+      margin-left: -13% !important;
+      padding: 0%;
+    }
+
+    .modal-header1 .btn-close {
+      padding-left: 160% !important;
+    }
+
+    #close {
+      padding-left: 5% !important;
+    }
+
+    .modal-header1 {
+      padding: 1% !important;
+    }
+  }
+
+  @media screen and (max-width: 725px) {
+    #modal1 {
+      width: 100% !important;
+      margin-left: -0px !important;
+    }
+
+    #palabra {
+      top: 15%;
+      margin-left: 22%;
+      font-size: 6vw;
+      padding: 20px;
+      margin-top: 350px;
+      width: 80%;
+    }
+
+    #contador {
+      bottom: 88.5%;
+      margin-left: 5.5%;
+      font-size: 35px;
+    }
+
+    .redo {
+      height: 300px;
+      width: 300px;
+      left: 20%;
+      margin-top: 35px;
+
+    }
+
+    #imagen {
+      width: 170px;
+      margin: auto;
+    }
+
+    #ojo {
+      height: 290px;
+      width: 350px;
+      position: absolute;
+      align-items: center;
+      position: absolute;
+      top: 10px;
+    }
+
+    .cota {
+      position: absolute;
+      top: 6%;
+      left: 7%;
+      width: 16%;
+      height: 8%;
+    }
+
+    .botones {
+      gap: 5%;
+    }
+
+    #categoriaContainer h1 {
+      margin-left: 190px;
+    }
+
+    #nivelContainer h2 {
+      margin-left: 190px;
+    }
+
+    .abcdario button {
+      font-size: 20px;
+      margin: 3px;
+      width: 50px;
+      height: 50px;
+    }
+
+    #final {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    #finalx {
+      max-width: 500px;
+      margin: auto;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .modal-header1 .btn-close {
+      padding-left: 155% !important;
+    }
+
+    .boton {
+      top: 42%;
+      left: 25%;
+      width: 95px;
+      height: 95px;
+    }
+
+    .boton .imagen {
+      position: absolute;
+      top: 50%;
+      left: 55%;
+      transform: translate(-50%, -50%);
+      width: 40px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    .modal-body {
+      gap: 20px;
+    }
+
+    #ani {
+      margin-top: -2px;
+      margin-left: 130px;
+    }
+
+    #final {
+      height: 910px;
+    }
+
+    #per {
+      width: 33vh;
+      height: 33vh;
+
+    }
+
+    #btnCerrarModal {
+      top: 845px;
+      width: 250px;
+      font-size: 35px;
+    }
+
+    #vf {
+      font-size: 47px;
+    }
+
+    #x {
+      font-size: 47px;
+      text-align: center;
+    }
+
+    #secu {
+      font-size: 47px;
+      margin-top: 49px;
+    }
+
+    #xx {
+      font-family: "Noteworthy Light";
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      margin-top: 50px;
+      padding-top: 70px;
+      font-weight: bold;
+      animation: parpadeo 2s linear infinite;
+    }
+
+    #vd {
+      text-align: center;
+      font-size: 45px;
+      margin-top: 50px;
+    }
+
+    #vic {
+      display: flex;
+      width: 30vh;
+      height: 30vh;
+      margin: auto;
+    }
+
+  }
+
+  @media screen and (max-width: 500px) {
+    #palabra {
+      top: 15%;
+      margin-left: 15%;
+      text-align: center;
+      font-size: 8vw;
+    }
+
+    #contador {
+      bottom: 88%;
+      margin-left: 5%;
+      font-size: 30px;
+    }
+
+    .redo {
+      height: 290px;
+      width: 280px;
+      left: 14vw;
+    }
+
+    #imagen {
+      width: 168px;
+      margin: auto;
+    }
+
+    #ojo {
+      height: 290px;
+      width: 350px;
+      position: absolute;
+      align-items: center;
+      position: absolute;
+      left: -35px;
+    }
+
+    .cota {
+      position: absolute;
+      top: 6.5%;
+      left: 7%;
+      width: 70px;
+      height: 70px;
+    }
+
+    #regresarCategorias {
+      font-size: 4.2vw;
+    }
+
+    #otra {
+      font-size: 4.2vw;
+    }
+
+    #categoriaContainer h1 {
+      margin-left: 140px;
+      font-size: 25px;
+    }
+
+    #nivelContainer h2 {
+      margin-left: 140px;
+    }
+
+    .abcdario button {
+      font-size: 20px;
+      margin: 3px;
+      width: 40px;
+      height: 50px;
+    }
+
+    .botones {
+      gap: 1%;
+    }
+
+    .bt {
+      width: 150px;
+      top: 25px;
+    }
+
+    .jugar {
+      padding: 0px 15px;
+      font-size: 24px;
+      height: 80px;
+      width: 150px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    #modal2 {
+      position: absolute;
+      margin: auto;
+      width: 150% !important;
+
+      margin-left: -25% !important;
+      margin-top: 5% !important;
+      box-shadow: 20px 10px 8px black;
+    }
+
+    .modal-body2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6%;
+      height: auto;
+    }
+
+    .img3 {
+      margin-left: 130%;
+      margin-top: -60%;
+    }
+  }
+
+
+  @media screen and (max-width: 770px) {
+    .modal-body {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 1px;
+      justify-content: center;
+    }
+
+    .modal-body img {
+      margin-top: 5% !important;
+      background-color: black;
+      width: 65% !important;
+      margin: auto;
+    }
+
+    #a {
+      margin-left: 20%;
+    }
+
+    #an {
+      margin-left: 20%;
+    }
+
+    #ani {
+      margin-left: 20%;
+    }
+
+    #modal2 {
+      position: absolute;
+      margin: auto;
+      width: 110% !important;
+      margin-left: -5% !important;
+      box-shadow: 20px 10px 8px black;
+      height: auto;
+    }
+
+    #modal3 {
+      position: absolute;
+      margin: auto;
+      width: 100% !important;
+      margin-left: 0% !important;
+      margin-top: 6% !important;
+      box-shadow: 20px 10px 8px black;
+    }
+
+    .modal-body2 {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+      gap: 1px;
+
+    }
+
+    .img2 {
+      margin-top: -50%;
+      margin-left: 13%;
+    }
+
+    .img1 {
+      margin-top: -15%;
+      margin-left: 13%;
+    }
+
+    .img3 {
+      margin-left: 13%;
+      margin-top: -50%;
+    }
+
+    #modal2 {
+      height: 85px;
+      margin-top: -5% !important;
+    }
+  }
+
+  @media screen and (max-width: 554px) {
+    #modal2 {
+      position: absolute;
+      margin: auto;
+      width: 90% !important;
+      margin-left: 5% !important;
+      margin-top: 15% !important;
+      box-shadow: 20px 10px 8px black;
+    }
+
+    #modal3 {
+      position: absolute;
+      margin: auto;
+      width: 90% !important;
+      margin-left: 5% !important;
+      margin-top: 6% !important;
+      box-shadow: 20px 10px 8px black;
+    }
+  }
