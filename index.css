@@ -42,7 +42,7 @@ body {
 
 .modal-content {
   width: 180% !important;
-  margin-left: -50% !important;
+  margin-left: -40% !important;
   margin-top: 10% !important;
   box-shadow: 20px 10px 8px black;
 }
@@ -62,7 +62,7 @@ body {
 #modal3 {
   position: absolute;
   margin: auto;
-  width: 120% !important;
+  width: 100% !important;
   margin-left: -10% !important;
   margin-top: 6% !important;
   box-shadow: 20px 10px 8px black;
